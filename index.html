@@ -3,9 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
   </head>
   <body>
+    <h1>Rock Paper Scissors !</h1>
+    <div class="score">
+      <h2 id="player-score">Your Score : <span>0</span></h2>
+      <h2 id="machine-score">Machine Score : <span>0</span></h2>
+    </div>
+    <button id="start">Start Game</button>
+    <div class="results">
+      <img src="" alt="" id="player-image">
+      <p>VS</p>
+      <img src="" alt="" id="machine-image">
+    </div>
+    <div class="controller">
+      <button id="btn-one">Rock</button>
+      <button id="btn-two">Paper</button>
+      <button id="btn-three">Scissors</button>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>
